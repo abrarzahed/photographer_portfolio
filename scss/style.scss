@@ -1,0 +1,9 @@
+main {
+  display: grid;
+  grid-template-columns: 1.3fr repeat(2, 1fr);
+  min-height: 100%;
+  .panel {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

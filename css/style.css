@@ -1,1 +1,9 @@
-/*# sourceMappingURL=style.css.map */
+main {
+  display: grid;
+  grid-template-columns: 1.3fr repeat(2, 1fr);
+  min-height: 100%;
+}
+main .panel {
+  display: grid;
+  grid-template-columns: 1fr;
+}/*# sourceMappingURL=style.css.map */
